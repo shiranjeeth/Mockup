@@ -1,0 +1,151 @@
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .time-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  .card-below-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute; 
+
+  }
+ 
+  .card-img {
+    position: relative; 
+    margin-right: 31px;
+    padding: 10px;
+  }
+  
+ 
+  
+  .card-img img:nth-child(2) {
+    top: 20px;
+    left: 20px; 
+   
+  }
+  .card-icon{
+    display: flex;
+    
+  }
+  .whole-card-text {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card-text {
+    margin-right: 22px;
+    padding: 10px
+}
+.card-icon {
+    gap: 5px;
+    padding: 10px;
+    color:gray;
+}
+.card-text-email{
+    color: rgb(19, 152, 229);
+}
+.card-content h3{
+    color: rgb(10, 86, 131);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.time-overlay span{
+    background-color: rgb(10, 86, 131);
+    padding: 2px;
+    color: white;
+}
+.Liveauctions-content{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Liveauctions-container h2 {
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 86, 131);
+    margin: 50px 50px;
+}
+
+@media(max-width:1400px){
+.card {
+  width: 236px;
+}
+.card-icon {
+  padding: 10px 0px 10px 0px;
+  color: gray;
+}
+}
+
+@media(max-width:1133px){
+
+  .Liveauctions-content {
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 181px;
+  
+}
+
+  }
+  @media(max-width:905px){
+
+    .Liveauctions-content {
+      margin-left: 95px;
+  }
+  
+    }
+
+    @media(max-width:764px){
+
+      .Liveauctions-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        flex-direction: column;
+      
+    }
+    .Liveauctions-container h2 {
+      font-size: 44px;
+      }
+
+    }

@@ -1,0 +1,162 @@
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .time-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+
+  .card-below-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute; 
+
+  }
+ 
+  .card-img {
+    position: relative; 
+    margin-right: 31px;
+    padding: 10px;
+  }
+  
+ 
+  
+  .card-img img:nth-child(2) {
+    top: 20px;
+    left: 20px; 
+   
+  }
+  .card-icon{
+    display: flex;
+    
+  }
+  .whole-card-text {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card-text {
+    margin-right: 22px;
+    padding: 10px
+}
+.card-icon {
+    gap: 5px;
+    padding: 10px;
+    color:gray;
+}
+.card-text-email{
+    color: rgb(19, 152, 229);
+}
+.card-content h3{
+    color: rgb(10, 86, 131);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.time-overlay span{
+    background-color: rgb(10, 86, 131);
+    padding: 2px;
+    color: white;
+}
+
+
+.card-names{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.card-star-rating {
+  margin-top: 9px;
+  color: goldenrod;
+}
+.recently-added-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -80px;
+}
+.recently-added-main-above{
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.recently-added-main-above  h2{
+  color: rgb(10, 86, 131);
+  font-size: 65px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media(max-width:1450px){
+  .recently-added-main-above{
+    max-width: 800px;
+    margin: auto;
+    
+  }
+  .recently-added-main{
+    grid-template-columns: 1fr 1fr;
+    margin-left: 71px;
+   
+  }
+  .recently-added-main-above h2 {
+   
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+  
+ 
+}
+@media(max-width:857px){
+  .recently-added-main{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center  ;
+    
+  }
+  .recently-added-main-above h2 {
+    color: rgb(10, 86, 131);
+    font-size: 44px;
+    margin-bottom: 12px;
+}
+}
+
+@media(max-width:532px){
+  .recently-added-main{
+    margin-right: 65px;
+ }
+  
+}

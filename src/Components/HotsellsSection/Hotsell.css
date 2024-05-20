@@ -1,0 +1,46 @@
+.hot-sells-main-div{
+    max-width: 1200px;
+    margin: auto;
+}
+.hot-sells-main-div h2{
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 86, 131);
+    margin: 50px 50px;
+}
+.banner-rightcontent h3{
+    font-size: 26px;
+    color: black;
+    text-align: center;
+}
+
+  
+@media(max-width:1262px){
+    .hot-sells-main-div{   
+            margin-top: 469px;
+    }
+  
+}
+
+@media(max-width:961px){
+    .hot-sells-main-div{
+            margin-top: 469px;
+    }
+}
+
+
+
+@media(max-width:545px){
+
+.hot-sells-main-div h2 {
+    font-size: 42px;
+    margin: 50px 50px 16px 50px;
+}
+.hot-sells-main-div{
+    margin-top: 468px;
+}
+
+
+}
